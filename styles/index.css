@@ -940,6 +940,13 @@ img {
   background-color: #1a1a00;
 }
 
+/*
+basic if example
+@if (10 > 5) {
+
+} @else {
+
+}*/
 .card {
   display: block;
   padding: 0.5rem;
