@@ -34,3 +34,37 @@ h1 {
     text-decoration: line-through;
   }
 }
+//vars
+$primary: #326dee;
+$secondary: #1ac886;
+$error: #d32752;
+$info: #f6c31c;
+
+$base-padding: 0.5rem;
+$base-margin: 0.5rem;
+
+$base-border-thickness: 1px;
+$base-border-radius: 10px;
+
+h1 {
+  color: $primary;
+}
+a {
+  color: $secondary
+}
+
+button {
+  color: white;
+  border: none;
+  background-color: $primary;
+}
+.error {
+  color: $error;
+  border-color: $error;
+  border-style: solid;
+}
+.notification {
+  color: $info;
+  border-color: $info;
+  border-style: solid;
+}

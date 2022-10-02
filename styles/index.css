@@ -30,3 +30,29 @@ img {
 h1 a {
   text-decoration: line-through;
 }
+
+h1 {
+  color: #326dee;
+}
+
+a {
+  color: #1ac886;
+}
+
+button {
+  color: white;
+  border: none;
+  background-color: #326dee;
+}
+
+.error {
+  color: #d32752;
+  border-color: #d32752;
+  border-style: solid;
+}
+
+.notification {
+  color: #f6c31c;
+  border-color: #f6c31c;
+  border-style: solid;
+}
