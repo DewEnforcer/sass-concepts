@@ -1453,6 +1453,21 @@ basic if example
   background-color: #326dee;
 }
 
+.btn-complement-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #326dee;
+  color: #fae7bf;
+}
+.btn-complement-primary:hover {
+  color: #326dee;
+  background-color: light-com(#326dee);
+}
+
 .btn-secondary {
   text-decoration: none;
   cursor: pointer;
@@ -1478,6 +1493,21 @@ basic if example
 }
 .btn-outlined-secondary:hover {
   background-color: #1ac886;
+}
+
+.btn-complement-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #1ac886;
+  color: #f08bb1;
+}
+.btn-complement-secondary:hover {
+  color: #1ac886;
+  background-color: light-com(#1ac886);
 }
 
 .btn-error {
@@ -1507,6 +1537,21 @@ basic if example
   background-color: #d32752;
 }
 
+.btn-complement-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #d32752;
+  color: #a5eedc;
+}
+.btn-complement-error:hover {
+  color: #d32752;
+  background-color: light-com(#d32752);
+}
+
 .btn-info {
   text-decoration: none;
   cursor: pointer;
@@ -1532,6 +1577,21 @@ basic if example
 }
 .btn-outlined-info:hover {
   background-color: #f6c31c;
+}
+
+.btn-complement-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #f6c31c;
+  color: #afc1fc;
+}
+.btn-complement-info:hover {
+  color: #f6c31c;
+  background-color: light-com(#f6c31c);
 }
 
 .btn-blue {
@@ -1561,6 +1621,21 @@ basic if example
   background-color: lightblue;
 }
 
+.btn-complement-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: lightblue;
+  color: white;
+}
+.btn-complement-blue:hover {
+  color: lightblue;
+  background-color: light-com(lightblue);
+}
+
 .btn-yellow {
   text-decoration: none;
   cursor: pointer;
@@ -1586,4 +1661,19 @@ basic if example
 }
 .btn-outlined-yellow:hover {
   background-color: rgb(255, 255, 0);
+}
+
+.btn-complement-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 0);
+  color: #9999ff;
+}
+.btn-complement-yellow:hover {
+  color: rgb(255, 255, 0);
+  background-color: light-com(rgb(255, 255, 0));
 }
