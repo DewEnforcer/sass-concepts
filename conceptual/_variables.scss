@@ -6,6 +6,11 @@ $secondary: #1ac886;
 $error: #d32752;
 $info: #f6c31c;
 
+//palette
+$colors: ("primary": $primary, "secondary": $secondary, "error": $error, "info": $info, "blue": lightblue, "yellow": rgb(255, 255, 0)); //map
+
+//@debug map-get($colors, "yellow");
+
 $base-padding: 0.5rem;
 $base-margin: 0.5rem;
 
