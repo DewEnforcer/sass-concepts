@@ -1415,3 +1415,175 @@ basic if example
 .card .card-body a {
   text-decoration: underline;
 }
+
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: "#e2e2e2";
+}
+
+.btn-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #326dee;
+}
+.btn-primary:hover {
+  background-color: #4a7ef0;
+}
+
+.btn-outlined-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: "#fff";
+  border: 1px solid #326dee;
+}
+.btn-outlined-primary:hover {
+  background-color: #326dee;
+}
+
+.btn-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #1ac886;
+}
+.btn-secondary:hover {
+  background-color: #1ddf95;
+}
+
+.btn-outlined-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: "#fff";
+  border: 1px solid #1ac886;
+}
+.btn-outlined-secondary:hover {
+  background-color: #1ac886;
+}
+
+.btn-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #d32752;
+}
+.btn-error:hover {
+  background-color: #da3961;
+}
+
+.btn-outlined-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: "#fff";
+  border: 1px solid #d32752;
+}
+.btn-outlined-error:hover {
+  background-color: #d32752;
+}
+
+.btn-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: #f6c31c;
+}
+.btn-info:hover {
+  background-color: #f7c935;
+}
+
+.btn-outlined-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: "#fff";
+  border: 1px solid #f6c31c;
+}
+.btn-outlined-info:hover {
+  background-color: #f6c31c;
+}
+
+.btn-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: lightblue;
+}
+.btn-blue:hover {
+  background-color: #c1e1ec;
+}
+
+.btn-outlined-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: "#fff";
+  border: 1px solid lightblue;
+}
+.btn-outlined-blue:hover {
+  background-color: lightblue;
+}
+
+.btn-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 0);
+}
+.btn-yellow:hover {
+  background-color: #ffff1a;
+}
+
+.btn-outlined-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: "#fff";
+  border: 1px solid rgb(255, 255, 0);
+}
+.btn-outlined-yellow:hover {
+  background-color: rgb(255, 255, 0);
+}
