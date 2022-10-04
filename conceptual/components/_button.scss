@@ -1,3 +1,6 @@
+@use "../abstracts" as *;
+@use "../pallete" as *;
+
 @mixin btn($bg-arg: "#e2e2e2") {
     text-decoration: none;
     cursor: pointer;
