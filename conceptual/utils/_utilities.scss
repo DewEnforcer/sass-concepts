@@ -1,0 +1,38 @@
+@use "sass:math";
+@use "../abstracts" as *;
+
+$utilities: (
+    "padding": (
+        "prefix": "p",
+        "values": (
+            "0": 0,
+            "1": $base-padding,
+            "2": $base-padding*1.5,
+            "3": $base-padding*2,
+            "4": $base-padding*2.5,
+            "5": $base-padding*3,
+        ),
+        ),
+    "padding-left": (
+        "prefix": "pl",
+        "values": (
+            "0": 0,
+            "1": $base-padding,
+            "2": $base-padding*1.5,
+            "3": $base-padding*2,
+            "4": $base-padding*2.5,
+            "5": $base-padding*3,
+        ),     
+    ) 
+);
+
+@each $property, $map in $utilities {
+    $prefix: map-get($map, "prefix");
+    $values: map-get($map, "values");
+
+    @each $key, $value in $values {
+        .#{$prefix}-#{$key} {
+            #{$property}: $value
+        }
+    }
+}
