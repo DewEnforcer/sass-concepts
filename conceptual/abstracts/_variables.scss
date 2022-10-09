@@ -1,10 +1,10 @@
 //_ = ignore, dont compile
 
 //vars
-$primary: #326dee;
-$secondary: #1ac886;
-$error: #d32752;
-$info: #f6c31c;
+$primary: #326dee !default; //use default (the prev var value) value if this var was previously declared
+$secondary: #1ac886 !default;
+$error: #d32752 !default;
+$info: #f6c31c !default;
 
 //palette
 $colors: ("primary": $primary, "secondary": $secondary, "error": $error, "info": $info, "blue": lightblue, "yellow": rgb(255, 255, 0)); //map
